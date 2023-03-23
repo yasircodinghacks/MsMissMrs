@@ -1,0 +1,35 @@
+main img{
+  height: 230px;
+}
+main{
+  padding: 20px;
+  background-color: #f3f3f3;
+  animation: fade 1s ease-in;
+  min-height: 90vh;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+.card{
+  overflow: hidden;
+  width: 300px;
+  background-color: #fff;
+  padding-bottom: 1rem;
+}
+.card h1,.card h3,.card p{
+  padding: 2px 1rem;
+}
+main .mainheading{
+  font-size: 3.5rem;
+  margin: 2rem auto 4rem;
+  text-align: center;
+  color: #7e22ce;
+  text-decoration: underline;
+}
+.cards a{
+  text-decoration: none;
+}

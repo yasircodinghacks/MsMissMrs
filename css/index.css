@@ -1,0 +1,100 @@
+/* main section of index.html */
+main {
+  background-color: #f5f5f5;
+  padding: 20px;
+  animation: fade 1s ease-in;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+main .section1{
+  background-color: #fff;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1 .welcome{
+  padding: 20px;
+  margin: auto;
+  /* width: 70%; */
+}
+.section1 .small{
+  display: none;
+}
+.section1 .welcome h1{
+  font-size: 3.3rem;
+  color: #ff7e65;
+}
+.section1 .welcome p{
+  font-size: 1.2rem;
+  color: #671100;
+}
+.section1 .welcome button{
+  font-size: 1.2rem;
+  background-color: #202e5b;
+  color: white;
+  display: inline-block;
+  padding: 0.8rem 1.3rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+.banner{
+  width: 30%;
+  min-width: 350px;
+}
+.banner img{
+  width: 100%;
+}
+
+.section2{
+  background-color: #ebffff;
+  border-top: 1px solid #ff9d00;
+  min-height: 70vh;
+}
+.section2 h1{
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 3rem;
+  text-shadow: 2px 2px 2px white;
+  margin-bottom: 4rem;
+  text-decoration: underline;
+}
+.card{
+  background-color: #202e5b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  padding: 20px;
+  max-width: 300px;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 2rem;
+}
+.card img{
+  width: 270px;
+  transform: translateY(-30px);
+}
+.card a{
+  text-decoration: none;
+  color: white;
+}
+.card h2{
+  font-size: 1.8rem;
+}
+
+
+/* main section end  */

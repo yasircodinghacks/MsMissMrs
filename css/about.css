@@ -1,0 +1,101 @@
+main{
+  animation: fade 1s ease-in;
+}
+main>div>.heading{
+  font-size: 2.2rem;
+  background-color: #daae00;
+  text-align: center;
+  color: white;
+  padding: 2rem 0;
+  text-transform: uppercase;
+
+}
+main>div:nth-child(2)>.heading{
+  background-color: #202e5b;
+}
+main>div:nth-child(3)>.heading{
+  background-color: #00778e;
+}
+.abouts1 .details{
+display: flex;
+max-width: 880px;
+padding: 1rem;
+margin:auto;
+justify-content: space-between;
+
+}
+.abouts2 .details{
+display: flex;
+flex-direction: row-reverse;
+max-width: 880px;
+padding: 1rem;
+margin:auto;
+justify-content: space-between;
+}
+.abouts1 .content{
+  width: calc(100% - 430px);
+}
+.abouts2 .content{
+  width: calc(100% - 430px);
+}
+
+.abouts1 .details p{
+  font-size: 1.3rem;;
+}
+.abouts2 .details p{
+  font-size: 1.4rem;;
+}
+.abouts1 .details h1{
+  font-size: 2.3rem;
+}
+.card:nth-child(1){
+  width: 300px;
+  background-color: #7e22ce;
+  color: white;
+}
+.card:nth-child(2){
+  width: 300px;
+  background-color: #00778e;
+  color: white;
+}
+.card:nth-child(3){
+  width: 300px;
+  background-color: #5e255d;
+  color: white;
+}
+.card{
+  text-align: center;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  margin: 4rem 2rem;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.card h2{
+  margin-top: 1.9rem;
+}
+img{
+  border-radius: 5px ;
+  overflow: hidden;
+}
+@media(max-width:900px){
+  main>div>.heading{
+    font-size: 1.8rem;
+  }
+}
+@media(max-width:700px){
+  html{
+    font-size: 77%;
+  }
+  main img{
+    display: none;
+  }
+  .content{
+    width: 80% !important;
+    margin: auto;
+  }
+}
